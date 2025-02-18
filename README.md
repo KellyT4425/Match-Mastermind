@@ -1,3 +1,3 @@
-![mastermind](imagesmd\mastermind-image.webp)
+![mastermind](imagesmd/mastermind-image.webp)
 
 # Match Mastermind
