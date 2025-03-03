@@ -14,7 +14,7 @@ colors: clam shell #D3BAAF, Calypso #2A778A, Maroon Flush #A8234C, Nugget #C49C2
 
 body {
     background-color: black;
-    color: white;
+    color: #D3BAAF;
     font-family: "Rubik Bubbles", serif; 
     text-align: center;
 }
@@ -36,7 +36,7 @@ main {
     margin: 1rem;
     padding: 2rem;
     border-radius: 1em;
-    box-shadow: 1rem #D3BAAF;
+    
 }
 
 .container {
@@ -51,12 +51,28 @@ main {
     flex: 1;
     border-radius: 1em;
     
+    
 }
 
 .row {
     display: flex;
     gap: 10px;
     margin-bottom: 10px;
+}
+
+.fa-puzzle-piece {
+    color: #D3BAAF;
+}
+
+.btn {
+    background-color: #A8234C;
+    border: none;
+    padding: 0.5em 1.5em 0.5em 1.5em;
+    margin-top: 2rem;
+    border-radius: 0.5rem;
+    color: #D3BAAF;
+    font-size: 0.9em;
+    font-family: "Rubik Bubbles", serif;
 }
 
 @media only screen and (max-width: 768px) {
