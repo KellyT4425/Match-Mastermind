@@ -1,0 +1,64 @@
+/* Google Fonts Imports*/
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Bubbles&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Bubbles&family=Sour+Gummy:ital,wght@0,100..900;1,100..900&display=swap');
+
+/* Font for Heading: "Rubik Bubbles", serif;
+
+colors: clam shell #D3BAAF, Calypso #2A778A, Maroon Flush #A8234C, Nugget #C49C26*/
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: black;
+    color: white;
+    font-family: "Rubik Bubbles", serif; 
+    text-align: center;
+}
+
+ header { 
+    height: 3rem;
+    font-weight: 400;
+    font-size: 1.5rem;
+    margin-top: 30px;
+    color: #A8234C;
+}
+
+main {
+    margin-top: 6rem;
+}
+
+.game-board {
+    background: #C49C26;
+    margin: 1rem;
+    padding: 2rem;
+    border-radius: 1em;
+    box-shadow: 1rem #D3BAAF;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+
+.col {
+    padding: 1.5rem 0;
+    background-color: #2A778A;
+    flex: 1;
+    border-radius: 1em;
+    
+}
+
+.row {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 10px;
+}
+
+@media only screen and (max-width: 768px) {
+    
+}
