@@ -1,11 +1,11 @@
 document.addEventListener("DOMContentLoaded", setupgame);
 
-const cards = document.querySelectorAll(".card");
 
 function setupgame () {
+    const cards = document.querySelectorAll(".card");
     cards.forEach((card, index) => {
-        card.addEventListener("click", flipcard)
-    })
+        card.addEventListener("click", flipcard);
+    });
 
 }
 
