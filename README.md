@@ -36,7 +36,8 @@ These are a couple of features I would like to add as my skill set in JavaScript
 
 ### Functions
 
-![Mobile First](imagesmd/mobile-first.png)
+![Mobile First](imagesmd/mob-first.JPG)
+
 ### WireFrame
 
 ![Wireframe](imagesmd/wireframe-mastermind.png)

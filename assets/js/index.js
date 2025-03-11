@@ -57,9 +57,19 @@ function checkMatch() {
 
     let [card1, card2] = flippedCards;
     if (card1.dataset.image === card2.dataset.image) {
-        // 🎉 Cards match!
+        //  Cards match!
         card1.classList.add("matched");
         card2.classList.add("matched");
+
+        // Do not reset the board immediately, use a timeout to ensure visuals update
+        setTimeout(() => { 
+
+          card1.classList.remove("flip");
+          card2.classList.remove("flip");
+          card1.style.backgroundImage = "";
+          card2.style.backgroundImage = "";
+          resetBoard();
+        }, 500);
         resetBoard();
     } else {
         //  Cards don't match, flip them back after 1 second
@@ -73,7 +83,7 @@ function checkMatch() {
     }
 }
 
-// 🔄 Reset flipped cards array & unlock board
+//  Reset flipped cards array & unlock board
 function resetBoard() {
     flippedCards = [];
     lockBoard = false;
